@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição de Vídeo - Laura Reis Portfolio</title>
+    <meta name="description" content="Projetos de Edição de Vídeo de Laura Reis - Produções audiovisuais">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/portifolio-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/Frame 4 (1).png" alt="Reis Design Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header video-edit">
+        <div class="header-content">
+            <a href="index.html#portfolio" class="back-link">
+                <span class="arrow">&larr;</span> Voltar ao Portfolio
+            </a>
+            <div class="header-title-wrapper">
+                <span class="category-number">04</span>
+                <h1 class="page-title">
+                    <span class="quote-mark">"</span>EDIÇÃO
+                    <br>
+                    <span class="title-highlight">DE VÍDEO.</span>
+                </h1>
+            </div>
+            <p class="page-description">
+                Produções audiovisuais criativas. 
+                Quando o assunto é vídeo, a equipe opta por mim!
+            </p>
+        </div>
+        <div class="header-visual">
+            <div class="visual-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <div class="filter-bar">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="institucional">Institucional</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="escolar">Escolar</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-category="institucional">
+                    <div class="project-image">
+                        <div class="image-placeholder video">
+                            <span class="play-icon">&#9658;</span>
+                            <span>Vídeo 1</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://drive.google.com/drive/folders/165XcJZXchrmkUE44oYuRosmSkZZqz1_F?usp=drive_link" class="project-link">Ver Vídeo</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Institucional</span>
+                        <h3 class="project-title">Monuem</h3>
+                        <p class="project-desc">Video Criado para um projeto Escolar</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-category="social">
+                    <div class="project-image">
+                        <div class="image-placeholder video">
+                            <span class="play-icon">&#9658;</span>
+                            <span>Vídeo 2</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Vídeo</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Social Media</span>
+                        <h3 class="project-title">Nome do Projeto</h3>
+                        <p class="project-desc">Descrição breve do vídeo e suas características principais.</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card" data-category="escolar">
+                    <div class="project-image">
+                        <div class="image-placeholder video">
+                            <span class="play-icon">&#9658;</span>
+                            <span>Vídeo 3</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Vídeo</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Escolar</span>
+                        <h3 class="project-title">Nome do Projeto</h3>
+                        <p class="project-desc">Descrição breve do vídeo e suas características principais.</p>
+                    </div>
+                </article>
+
+                <!-- Add More Project Placeholder -->
+                <article class="project-card add-project">
+                    <div class="add-project-content">
+                        <span class="add-icon">+</span>
+                        <p>Adicionar Novo Vídeo</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Between Categories -->
+    <section class="category-nav">
+        <div class="nav-container">
+            <a href="portifolio-programacao.html" class="nav-card prev">
+                <span class="nav-label">Categoria Anterior</span>
+                <span class="nav-title">&larr; Back-end</span>
+            </a>
+            <a href="portifolio-design-grafico.html" class="nav-card next">
+                <span class="nav-label">Próxima Categoria</span>
+                <span class="nav-title">Design Gráfico &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="img/Frame 5.png" alt="Reis Design" class="footer-logo">
+            <p class="footer-text">Laura Reis - UI/UX Designer & Design Gráfico</p>
+            <p class="footer-copyright">© 2025 Reis Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+</body>
+</html>

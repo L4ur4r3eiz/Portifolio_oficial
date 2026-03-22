@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação - Laura Reis Portfolio</title>
+    <meta name="description" content="Projetos de Programação de Laura Reis - Back-end e Apps">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/portifolio-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/Frame 4 (1).png" alt="Reis Design Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header programming">
+        <div class="header-content">
+            <a href="index.html#portfolio" class="back-link">
+                <span class="arrow">&larr;</span> Voltar ao Portfolio
+            </a>
+            <div class="header-title-wrapper">
+                <span class="category-number">05</span>
+                <h1 class="page-title">
+                    <span class="quote-mark">"</span>PROGRA
+                    <br>
+                    <span class="title-highlight">MAÇÃO.</span>
+                </h1>
+            </div>
+            <p class="page-description">
+                Projetos de back-end, apps e automações. 
+                Explorando o mundo além do design.
+            </p>
+        </div>
+        <div class="header-visual">
+            <div class="visual-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <div class="filter-bar">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="flutter">Flutter</button>
+                <button class="filter-btn" data-filter="api">API</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-category="python">
+                    <div class="project-image">
+                        <div class="image-placeholder code">
+                            <span class="code-icon">&lt;/&gt;</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/PA_python2" class="project-link">Ver Código</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Python</span>
+                        <h3 class="project-title">Atividades Escolares</h3>
+                        <p class="project-desc">um pouco das atividades e conhecimentos de python</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <div class="image-placeholder code">
+                            <span class="code-icon">&lt;/&gt;</span>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/BATALHA_DE_CRANIOS" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Dart & Flutter</span>
+                        <h3 class="project-title">Batalha de Cranios</h3>
+                        <p class="project-desc">Experiência com desenvolvimento de aplicativo mobile para Quiz.</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card" data-category="api">
+                    <div class="project-image">
+                        <div class="image-placeholder code">
+                            <span class="code-icon">&lt;/&gt;</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/BatalhaDeCraniosAPI" class="project-link">Ver Código</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">API REST</span>
+                        <h3 class="project-title">Batalha de Cranios</h3>
+                        <p class="project-desc">API desenvolvida para aplicativo.</p>
+                    </div>
+                </article>
+
+                <!-- Add More Project Placeholder -->
+                <article class="project-card add-project">
+                    <div class="add-project-content">
+                        <span class="add-icon">+</span>
+                        <p>Adicionar Novo Projeto</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Between Categories -->
+    <section class="category-nav">
+        <div class="nav-container">
+            <a href="portifolio-ui-ux.html" class="nav-card prev">
+                <span class="nav-label">Categoria Anterior</span>
+                <span class="nav-title">&larr;UI/UX Design</span>
+            </a>
+            <a href="portifolio-video.html" class="nav-card next">
+                <span class="nav-label">Próxima Categoria</span>
+                <span class="nav-title">Edição de video &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="img/Frame 5.png" alt="Reis Design" class="footer-logo">
+            <p class="footer-text">Laura Reis - UI/UX Designer & Design Gráfico</p>
+            <p class="footer-copyright">© 2025 Reis Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+</body>
+</html>

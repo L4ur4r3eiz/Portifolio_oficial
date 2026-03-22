@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Design - Laura Reis Portfolio</title>
+    <meta name="description" content="Projetos de UI/UX Design de Laura Reis - Interfaces que encantam">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/portifolio-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/Frame 4 (1).png" alt="Reis Design Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <a href="index.html#portfolio" class="back-link">
+                <span class="arrow">&larr;</span> Voltar ao Portfolio
+            </a>
+            <div class="header-title-wrapper">
+                <span class="category-number">01</span>
+                <h1 class="page-title">
+                    <span class="quote-mark">"</span>UI/UX
+                    <br>
+                    <span class="title-highlight">DESIGN.</span>
+                </h1>
+            </div>
+            <p class="page-description">
+                Interfaces que unem beleza e funcionalidade. 
+                Cada projeto é pensado para proporcionar a melhor experiência ao usuário.
+            </p>
+        </div>
+        <div class="header-visual">
+            <div class="visual-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                    <path d="M7 8l3 3-3 3"></path>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <div class="filter-bar">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/Captura de tela 2026-03-21 152022.png" alt="">
+                            
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/STGMJIcTxPi9Qo7lX9zpnJ/Feira-Tecnologica-2025?node-id=0-1&t=luM46q3nXvjgEjCs-1" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Web Design</span>
+                        <h3 class="project-title">Feira Tecnologica 2025</h3>
+                        <p class="project-desc">Mulheres sobrecarregadas na sociedade atual</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/stremins.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/design/Cj4ga2WJaqI2CWL0kr8XD9/Primeiro-UI-e-UX?node-id=0-1&t=FCrj02Ce2OoiaSI6-1" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Web Design</span>
+                        <h3 class="project-title">Streaming infantil</h3>
+                        <p class="project-desc">Tela para um futuro app de streaming para crianças com todos os desenhos e filmes infantil existentes</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card" data-category="dashboard">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/conectados.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.figma.com/proto/TBrfqBuJR8QEFMXPCWjmqv/Conectados-%E2%80%93-Prot%C3%B3tipo-Alta-Fidelidade?page-id=0%3A1&node-id=29-3&viewport=462%2C317%2C0.07&t=mfNc0QUA9Dyhavvo-1&scaling=contain&content-scaling=fixed&starting-point-node-id=98%3A429" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Dashboard</span>
+                        <h3 class="project-title">App Conectados</h3>
+                        <p class="project-desc">Aplicativo para "Bater Ponto" com uma interface moderna</p>
+                    </div>
+                </article>
+
+                <!-- Add More Project Placeholder -->
+                <article class="project-card add-project">
+                    <div class="add-project-content">
+                        <span class="add-icon">+</span>
+                        <p>Adicionar Novo Projeto</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Between Categories -->
+    <section class="category-nav">
+        <div class="nav-container">
+            <a href="portifolio-programacao.html" class="nav-card next">
+                <span class="nav-label">Próxima Categoria</span>
+                <span class="nav-title">Back-end &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="img/Frame 5.png" alt="Reis Design" class="footer-logo">
+            <p class="footer-text">Laura Reis - UI/UX Designer & Design Gráfico</p>
+            <p class="footer-copyright">© 2025 Reis Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS - Laura Reis Portfolio</title>
+    <meta name="description" content="Projetos de HTML e CSS de Laura Reis - Sites e layouts">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/portifolio-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/reis-design-logo.png" alt="Reis Design Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header web-design">
+        <div class="header-content">
+            <a href="index.html#portfolio" class="back-link">
+                <span class="arrow">&larr;</span> Voltar ao Portfolio
+            </a>
+            <div class="header-title-wrapper">
+                <span class="category-number">03</span>
+                <h1 class="page-title">
+                    <span class="quote-mark">"</span>HTML
+                    <br>
+                    <span class="title-highlight">& CSS.</span>
+                </h1>
+            </div>
+            <p class="page-description">
+                Sites e layouts desenvolvidos com HTML e CSS. 
+                Minha base para dar vida aos designs.
+            </p>
+        </div>
+        <div class="header-visual">
+            <div class="visual-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                    <line x1="12" y1="2" x2="12" y2="22"></line>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <div class="filter-bar">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+                <button class="filter-btn" data-filter="responsive">Responsivo</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-category="landing">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/comotreinarseudragão.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/Site-Como-treinar-seu-Drag-o-2.0?tab=readme-ov-file" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Landing Page</span>
+                        <h3 class="project-title">Como Treinar Seu Dragão</h3>
+                        <p class="project-desc">Site foi feito para aperfeiçoamento de ideias</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-category="responsive">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/siteanimações.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/Site-Animacoes-Pequenos-Talentos" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Landing Page</span>
+                        <h3 class="project-title">Animações</h3>
+                        <p class="project-desc">Site feito para uma competição</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card" data-category="portfolio">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/sitereileão.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://l4ur4r3eiz.github.io/Site-IWI-Rei.leao/" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Site responsivo</span>
+                        <h3 class="project-title">Rei Leão</h3>
+                        <p class="project-desc">Site feito durante as aulas de IWI na Etec MCM para aperfeiçoamento de ideias</p>
+                    </div>
+                </article>
+
+
+                <article class="project-card" data-category="portfolio">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/portifolio1.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/Portifolio?tab=readme-ov-file" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Bootstrap</span>
+                        <h3 class="project-title">Primeiro Portifolio</h3>
+                        <p class="project-desc">aprendendo a usar o Bootstrap</p>
+                    </div>
+                </article>
+
+
+                  <article class="project-card" data-category="portfolio">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/sermulher.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/feiratecnologica2025?tab=readme-ov-file" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Bootstrap</span>
+                        <h3 class="project-title">Ser mulher</h3>
+                        <p class="project-desc">Site feito em grupo para feira tecnologica 2025</p>
+                    </div>
+                </article>
+
+
+                <!-- Add More Project Placeholder -->
+                <article class="project-card add-project">
+                    <div class="add-project-content">
+                        <span class="add-icon">+</span>
+                        <p>Adicionar Novo Projeto</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Between Categories -->
+    <section class="category-nav">
+        <div class="nav-container">
+            <a href="portifolio-design-grafico.html" class="nav-card prev">
+                <span class="nav-label">Categoria Anterior</span>
+                <span class="nav-title">&larr; Design Gráfico</span>
+            </a>
+            <a href="portifolio-outros.html" class="nav-card next">
+                <span class="nav-label">Próxima Categoria</span>
+                <span class="nav-title">Outros Projetos &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="images/reis-design-logo.png" alt="Reis Design" class="footer-logo">
+            <p class="footer-text">Laura Reis - UI/UX Designer & Design Gráfico</p>
+            <p class="footer-copyright">© 2025 Reis Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+</body>
+</html>
