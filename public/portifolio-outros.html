@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros Projetos - Laura Reis Portfolio</title>
+    <meta name="description" content="Outros projetos criativos de Laura Reis">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/portifolio-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/reis-design-logo.png" alt="Reis Design Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header others">
+        <div class="header-content">
+            <a href="index.html#portfolio" class="back-link">
+                <span class="arrow">&larr;</span> Voltar ao Portfolio
+            </a>
+            <div class="header-title-wrapper">
+                <span class="category-number">06</span>
+                <h1 class="page-title">
+                    <span class="quote-mark">"</span>OUTROS
+                    <br>
+                    <span class="title-highlight">PROJETOS.</span>
+                </h1>
+            </div>
+            <p class="page-description">
+                Mais criações e experimentos. 
+                Robótica, desenhos, e outros trabalhos criativos.
+            </p>
+        </div>
+        <div class="header-visual">
+            <div class="visual-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <div class="filter-bar">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="robotica">Robótica</button>
+                <button class="filter-btn" data-filter="desenho">Desenho</button>
+                <button class="filter-btn" data-filter="outros">Outros</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-category="robotica">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/mauricioa.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/L4ur4r3eiz/meuprimeirosite_Mauricio" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Robótica</span>
+                        <h3 class="project-title">Carrinho Arduino</h3>
+                        <p class="project-desc">Montagem de carrinho para competição usando Arduino - Pequenos Talentos.</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-category="desenho">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <span>Desenho</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Ilustração</span>
+                        <h3 class="project-title">Fan Arts</h3>
+                        <p class="project-desc">Ilustrações digitais e tradicionais de personagens.</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card" data-category="outros">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/projeto3d1.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://app.sketchup.com/share/tc/northAmerica/B9RU4eKbz2Q?source=web&stoken=KXd8_6sdAHzMPi56_6nkqSncTKgSdWdl7YODzV1Yh82M86Ukjac9oWIha91ld3aQ" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Projeto 3d</span>
+                        <h3 class="project-title">cozinha Planejada</h3>
+                        <p class="project-desc">Cozinha Planejada 3d, feita para orçamento</p>
+                    </div>
+                </article>
+
+                 <article class="project-card" data-category="outros">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/planejada02.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://app.sketchup.com/share/tc/northAmerica/TPPu_o700w4?source=web&stoken=JxJvCIT6PZLLdFQ8frAYVMwbdRoMm0Mu8Ieu96gbuUQe85AMrfBJ8o4ordzTDQEU" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Projeto 3d</span>
+                        <h3 class="project-title">cozinha Planejada</h3>
+                        <p class="project-desc">Cozinha Planejada 3d, feita para orçamento</p>
+                    </div>
+                </article>
+
+                <!-- Add More Project Placeholder -->
+                <article class="project-card add-project">
+                    <div class="add-project-content">
+                        <span class="add-icon">+</span>
+                        <p>Adicionar Novo Projeto</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Between Categories -->
+    <section class="category-nav">
+        <div class="nav-container">
+            <a href="portifolio-web.html" class="nav-card prev">
+                <span class="nav-label">Categoria Anterior</span>
+                <span class="nav-title">&larr; HTML & CSS</span>
+            </a>
+            <a href="index.html#portfolio" class="nav-card next">
+                <span class="nav-label">Voltar</span>
+                <span class="nav-title">Todas as Categorias &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="images/reis-design-logo.png" alt="Reis Design" class="footer-logo">
+            <p class="footer-text">Laura Reis - UI/UX Designer & Design Gráfico</p>
+            <p class="footer-copyright">© 2025 Reis Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+</body>
+</html>

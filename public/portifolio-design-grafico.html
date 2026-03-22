@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Gráfico - Laura Reis Portfolio</title>
+    <meta name="description" content="Projetos de Design Gráfico de Laura Reis - Criatividade visual">
+    <link rel="stylesheet" href="css/portifolio-page.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/Frame 4 (1).png" alt="Reis Design Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header design-grafico">
+        <div class="header-content">
+            <a href="index.html#portfolio" class="back-link">
+                <span class="arrow">&larr;</span> Voltar ao Portfolio
+            </a>
+            <div class="header-title-wrapper">
+                <span class="category-number">02</span>
+                <h1 class="page-title">
+                    <span class="quote-mark">"</span>DESIGN
+                    <br>
+                    <span class="title-highlight">GRÁFICO.</span>
+                </h1>
+            </div>
+            <p class="page-description">
+                Transformando ideias em visuais criativos. 
+                Identidades visuais, catálogos, posts e muito mais.
+            </p>
+        </div>
+        <div class="header-visual">
+            <div class="visual-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                    <path d="M2 2l7.586 7.586"></path>
+                    <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <div class="filter-bar">
+                <span class="filter-label">Filtrar:</span>
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="identidade">Identidade Visual</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="catalogo">Catálogos</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-category="identidade">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/aoredordamesa.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.canva.com/design/DAG_GG8MSS8/7zg3P_T2dqtpO8fY2wXtcg/edit?utm_content=DAG_GG8MSS8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Identidade Visual</span>
+                        <h3 class="project-title">Ao Redor da mesa</h3>
+                        <p class="project-desc">identidade visual criada e pensada para uma marca de mesa posta</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-category="social">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/postmesaposta.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.canva.com/design/DAG_SDrV_xE/rSsvjfH1D6ohC1c9PYAPOA/edit?utm_content=DAG_SDrV_xE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Social Media</span>
+                        <h3 class="project-title">Post Ao redor da mesa</h3>
+                        <p class="project-desc">Post de Apresentação da marca para instagram</p>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card" data-category="catalogo">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/oliglass.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.canva.com/design/DAG-O_dpfY8/xltZCmpnu5b3GD05Kp-xCw/edit?utm_content=DAG-O_dpfY8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Social Media</span>
+                        <h3 class="project-title">oliglass</h3>
+                        <p class="project-desc">Post de Apresentação da marca para instagram</p>
+                    </div>
+                </article>
+
+                 <article class="project-card" data-category="catalogo">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/catalogo.png" alt="">
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.canva.com/design/DAGw0w1OeeE/ln2j4IoxQpuLvzB_pDuCww/edit?utm_content=DAGw0w1OeeE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Catalogo</span>
+                        <h3 class="project-title">Spa Therapy</h3>
+                        <p class="project-desc">Preços e Pacotes com a identidade visual da marca</p>
+                    </div>
+                </article>
+
+                <!-- Add More Project Placeholder -->
+                <article class="project-card add-project">
+                    <div class="add-project-content">
+                        <span class="add-icon">+</span>
+                        <p>Adicionar Novo Projeto</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Between Categories -->
+    <section class="category-nav">
+        <div class="nav-container">
+            <a href="portifolio-video.html" class="nav-card prev">
+                <span class="nav-label">Categoria Anterior</span>
+                <span class="nav-title">&larr; Edição de Video</span>
+            </a>
+            <a href="portifolio-web.html" class="nav-card next">
+                <span class="nav-label">Próxima Categoria</span>
+                <span class="nav-title">HTML & CSS &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="img/Frame 5.png" alt="Reis Design" class="footer-logo">
+            <p class="footer-text">Laura Reis - UI/UX Designer & Design Gráfico</p>
+            <p class="footer-copyright">© 2025 Reis Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+</body>
+</html>
